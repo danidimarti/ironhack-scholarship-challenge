@@ -1,0 +1,167 @@
+html{
+	display: block;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	margin: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 25px;
+}
+header img {
+	height: 80%;
+}
+
+header a {
+	margin-left: 25px;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#f04531;
+	text-decoration: underline;
+}
+
+img:hover {
+	cursor: pointer;
+}
+
+.above-fold{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	background-image: url(../images/tiger-trade_2.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 800px;
+	color: white;
+	padding-right: 500px
+
+}
+
+.above-fold h1{
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.above-fold p{
+	font-size: 25px;
+}
+
+button.take-action{
+	display: inline-block;
+	color: white;
+	background-color: #f04531;
+	font-size: 22px;
+	padding: 15px 32px;
+	border: none;
+	cursor: pointer;
+	margin: 4px 2px;
+	text-align: center;
+	border-radius: 12px;
+}
+
+button.take-action:hover {
+    background-color: #cf3c2b;
+}
+
+.icons{
+	text-align: center;
+}
+
+.icons ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+.icons li{
+	width: 20%;
+}
+
+li{
+	display: list-item;
+}
+
+.icons img{
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.icons h3{
+	margin-top: 0;
+	color: #f04531;
+}
+
+h3{
+	font-size: 25px;
+}
+
+.icons p{
+	font-size: 18px;
+}
+
+.footer{
+	display: block;
+	background-image: url(../images/footer.jpg);
+	background-size: cover;
+	color: white;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 6%;
+}
+
+
+.footer h2{
+	font-size: 25px;
+	margin-top: 0;
+		
+}
+
+.footer p{
+	font-size: 15px;
+}
+
+.sign-button{
+	display: block;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+button.sign{
+	color: white;
+	background-color: #f04531;
+	font-size: 14px;
+	content: center;
+	text-align: center;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	margin: 4px 2px;
+	border-radius: 20px;
+}
+
+button.sign:hover {
+    background-color: #cf3c2b;
+}
